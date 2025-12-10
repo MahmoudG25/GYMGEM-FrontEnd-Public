@@ -1,0 +1,10 @@
+{
+  "id": 37,
+  "username": "hamodi2831995",
+  "email": "hamodi2831995@gmail.com",
+  "current_profile": 39,
+  "profiles": [
+    { "type": "trainer", "id": 39 },
+    { "type": "trainee", "id": 40 }
+  ]
+}

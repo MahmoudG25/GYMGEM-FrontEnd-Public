@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 20% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 12%;
+    --primary: 207 90% 48%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 160 45% 40%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 213 15% 42%;
+    --accent: 160 35% 92%;
+    --accent-foreground: 210 20% 12%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 85%;
+    --input: 214 32% 85%;
+    --ring: 207 90% 48%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 223 16% 12%;
+    --foreground: 210 20% 96%;
+    --card: 224 18% 14%;
+    --card-foreground: 210 20% 96%;
+    --popover: 224 18% 14%;
+    --popover-foreground: 210 20% 96%;
+    --primary: 200 95% 55%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 160 45% 40%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 223 14% 18%;
+    --muted-foreground: 214 32% 75%;
+    --accent: 201 30% 22%;
+    --accent-foreground: 210 20% 96%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 218 15% 28%;
+    --input: 218 15% 28%;
+    --ring: 200 95% 55%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bebas-bold {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.clip-diagonal {
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.clip-diagonal2 {
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.clip-diagonal-righrt {
+  clip-path: polygon(60% 0, 75% 100%, 40% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+
+/* ----------------------------------------------------------------------------- */
+.offers-swiper {
+  overflow: hidden;
+  position: relative;
+}
+
+.offers-swiper .swiper-button-next,
+.offers-swiper .swiper-button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  color: #ff8211;
+  z-index: 20;
+}
+
+.offers-swiper .swiper-button-prev {
+  left: -40px;
+}
+
+.offers-swiper .swiper-button-next {
+  right: -40px;
+}
+
+.offers-swiper .swiper-pagination {
+  bottom: -28px;
+}
+
+.offers-swiper .swiper-pagination-bullet {
+  background: #d1d5db;
+  opacity: 0.6;
+}
+
+.offers-swiper .swiper-pagination-bullet-active {
+  background: #ff8211;
+  opacity: 1;
+} */
